@@ -37,10 +37,6 @@ networks:
 
 net_mappings:
   - host: home
-    network: dummy-switch
-    ip: 10.10.40.15
-
-  - host: home
     network: home-switch
     ip: 10.10.30.5
 
