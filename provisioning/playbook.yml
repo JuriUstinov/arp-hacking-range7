@@ -5,7 +5,7 @@
       user_access_username: user
       user_access_password: Password123
       user_access_sudo: True
-    - role: attacker
+    - role: common
 
 - hosts: server
   become: true
