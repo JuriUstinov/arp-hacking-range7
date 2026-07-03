@@ -1,11 +1,11 @@
 - hosts: all
   become: true
-   roles:
+  roles:
     - role: user-access
-      user_access_username: kali
-      user_access_password: kali
+      user_access_username: user
+      user_access_password: Password123
       user_access_sudo: True
-    - role: common
+    - role: attacker
 
 - hosts: server
   become: true
